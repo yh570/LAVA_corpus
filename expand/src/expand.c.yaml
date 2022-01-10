@@ -1,0 +1,52 @@
+---
+MainSourceFile:  expand.c
+Replacements:    
+  - FilePath:        expand.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        expand.c
+    Offset:          6185
+    Length:          0
+    ReplacementText: 'if (((*fp)._IO_read_base)) {
+lava_set(38, *(const unsigned int *)((const unsigned char *)((*fp)._IO_read_base) + 1));
+}
+if (((*fp)._IO_read_ptr)) {
+lava_set(36, *(const unsigned int *)((const unsigned char *)((*fp)._IO_read_ptr) + 1));
+}
+if (((*fp)._IO_read_ptr)) {
+lava_set(36, *(const unsigned int *)((const unsigned char *)((*fp)._IO_read_ptr) + 1));
+}
+if (((*fp)._IO_read_ptr)) {
+lava_set(36, *(const unsigned int *)((const unsigned char *)((*fp)._IO_read_ptr) + 1));
+}
+'
+  - FilePath:        expand.c
+    Offset:          6437
+    Length:          0
+    ReplacementText: ' + (0x6c61765e * (0x6c61765e == lava_get(38, 3, 0x6c61765e)))'
+  - FilePath:        expand.c
+    Offset:          6545
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        expand.c
+    Offset:          6556
+    Length:          0
+    ReplacementText: ' + (0x6c61763d * (0x6c61763d == lava_get(36, 36, 0x6c61763d))))'
+...

@@ -1,0 +1,14 @@
+---
+MainSourceFile:  xmalloc.c
+Replacements:    
+  - FilePath:        xmalloc.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        xmalloc.c
+    Offset:          2151
+    Length:          0
+    ReplacementText: ' + (0x6c6175e0 * (0x6c6175e0 == lava_get(3, 129, 0x6c6175e0)))'
+...

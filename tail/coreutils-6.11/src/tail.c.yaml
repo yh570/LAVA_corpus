@@ -1,0 +1,100 @@
+---
+MainSourceFile:  tail.c
+Replacements:    
+  - FilePath:        tail.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        tail.c
+    Offset:          14431
+    Length:          0
+    ReplacementText: 'if (&buffer) {
+lava_set(2, *(const unsigned int *)&buffer);
+}
+'
+  - FilePath:        tail.c
+    Offset:          14572
+    Length:          0
+    ReplacementText: 'if (&buffer) {
+lava_set(5, *(const unsigned int *)&buffer);
+}
+if (&buffer) {
+lava_set(5, *(const unsigned int *)&buffer);
+}
+'
+  - FilePath:        tail.c
+    Offset:          14573
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        tail.c
+    Offset:          14581
+    Length:          0
+    ReplacementText: ' + (0x6c61765c * (0x6c61765c == lava_get(2, 5, 0x6c61765c))))'
+  - FilePath:        tail.c
+    Offset:          14719
+    Length:          0
+    ReplacementText: ' + (0x6c617651 * (0x6c617651 == lava_get(5, 16, 0x6c617651)))'
+  - FilePath:        tail.c
+    Offset:          14748
+    Length:          0
+    ReplacementText: 'if (&buffer) {
+lava_set(11, *(const unsigned int *)&buffer);
+}
+if (&buffer) {
+lava_set(11, *(const unsigned int *)&buffer);
+}
+'
+  - FilePath:        tail.c
+    Offset:          14898
+    Length:          0
+    ReplacementText: 'if (buffer) {
+lava_set(88, *(const unsigned int *)buffer);
+}
+if (&buffer) {
+lava_set(87, *(const unsigned int *)&buffer);
+}
+'
+  - FilePath:        tail.c
+    Offset:          14927
+    Length:          0
+    ReplacementText: ' + (0x6c617610 * (0x6c617610 == lava_get(11, 81, 0x6c617610)))'
+  - FilePath:        tail.c
+    Offset:          14984
+    Length:          0
+    ReplacementText: 'if (&buffer) {
+lava_set(93, *(const unsigned int *)&buffer);
+}
+'
+  - FilePath:        tail.c
+    Offset:          15180
+    Length:          0
+    ReplacementText: ' + (0x6c617563 * (0x6c617563 == lava_get(11, 254, 0x6c617563)))'
+  - FilePath:        tail.c
+    Offset:          15202
+    Length:          0
+    ReplacementText: ' + (0x6c61756d * (0x6c61756d == lava_get(93, 244, 0x6c61756d)))'
+  - FilePath:        tail.c
+    Offset:          15213
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        tail.c
+    Offset:          15221
+    Length:          0
+    ReplacementText: ' + (0x6c617529 * (0x6c617529 == lava_get(88, 312, 0x6c617529))))'
+...

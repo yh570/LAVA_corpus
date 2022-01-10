@@ -1,0 +1,258 @@
+---
+MainSourceFile:  printf-parse.c
+Replacements:    
+  - FilePath:        printf-parse.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        printf-parse.c
+    Offset:          4165
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          4167
+    Length:          0
+    ReplacementText: ' + (0x6c60d249 * (0x6c60d249 == lava_get(2164, 42008, 0x6c60d249))))'
+  - FilePath:        printf-parse.c
+    Offset:          4201
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          4205
+    Length:          0
+    ReplacementText: ' + (0x6c60d014 * (0x6c60d014 == lava_get(2164, 42573, 0x6c60d014))))'
+  - FilePath:        printf-parse.c
+    Offset:          4297
+    Length:          0
+    ReplacementText: ' + (0x6c60cddf * (0x6c60cddf == lava_get(2164, 43138, 0x6c60cddf)))'
+  - FilePath:        printf-parse.c
+    Offset:          4683
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          4685
+    Length:          0
+    ReplacementText: ' + (0x6c60cbaa * (0x6c60cbaa == lava_get(2164, 43703, 0x6c60cbaa))))'
+  - FilePath:        printf-parse.c
+    Offset:          4697
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          4699
+    Length:          0
+    ReplacementText: ' + (0x6c609248 * (0x6c609248 == lava_get(2164, 58393, 0x6c609248))))'
+  - FilePath:        printf-parse.c
+    Offset:          5225
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5227
+    Length:          0
+    ReplacementText: ' + (0x6c60c975 * (0x6c60c975 == lava_get(2164, 44268, 0x6c60c975))))'
+  - FilePath:        printf-parse.c
+    Offset:          5301
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5303
+    Length:          0
+    ReplacementText: ' + (0x6c60c740 * (0x6c60c740 == lava_get(2164, 44833, 0x6c60c740))))'
+  - FilePath:        printf-parse.c
+    Offset:          5375
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5377
+    Length:          0
+    ReplacementText: ' + (0x6c60c50b * (0x6c60c50b == lava_get(2164, 45398, 0x6c60c50b))))'
+  - FilePath:        printf-parse.c
+    Offset:          5453
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5455
+    Length:          0
+    ReplacementText: ' + (0x6c60c2d6 * (0x6c60c2d6 == lava_get(2164, 45963, 0x6c60c2d6))))'
+  - FilePath:        printf-parse.c
+    Offset:          5528
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5530
+    Length:          0
+    ReplacementText: ' + (0x6c60c0a1 * (0x6c60c0a1 == lava_get(2164, 46528, 0x6c60c0a1))))'
+  - FilePath:        printf-parse.c
+    Offset:          5601
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5603
+    Length:          0
+    ReplacementText: ' + (0x6c60be6c * (0x6c60be6c == lava_get(2164, 47093, 0x6c60be6c))))'
+  - FilePath:        printf-parse.c
+    Offset:          5728
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5730
+    Length:          0
+    ReplacementText: ' + (0x6c60bc37 * (0x6c60bc37 == lava_get(2164, 47658, 0x6c60bc37))))'
+  - FilePath:        printf-parse.c
+    Offset:          5929
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5931
+    Length:          0
+    ReplacementText: ' + (0x6c609013 * (0x6c609013 == lava_get(2164, 58958, 0x6c609013))))'
+  - FilePath:        printf-parse.c
+    Offset:          5943
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          5945
+    Length:          0
+    ReplacementText: ' + (0x6c608dde * (0x6c608dde == lava_get(2164, 59523, 0x6c608dde))))'
+  - FilePath:        printf-parse.c
+    Offset:          6689
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          6691
+    Length:          0
+    ReplacementText: ' + (0x6c60ba02 * (0x6c60ba02 == lava_get(2164, 48223, 0x6c60ba02))))'
+  - FilePath:        printf-parse.c
+    Offset:          6703
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          6705
+    Length:          0
+    ReplacementText: ' + (0x6c60b7cd * (0x6c60b7cd == lava_get(2164, 48788, 0x6c60b7cd))))'
+  - FilePath:        printf-parse.c
+    Offset:          6794
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          6796
+    Length:          0
+    ReplacementText: ' + (0x6c60b598 * (0x6c60b598 == lava_get(2164, 49353, 0x6c60b598))))'
+  - FilePath:        printf-parse.c
+    Offset:          6808
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          6810
+    Length:          0
+    ReplacementText: ' + (0x6c60b363 * (0x6c60b363 == lava_get(2164, 49918, 0x6c60b363))))'
+  - FilePath:        printf-parse.c
+    Offset:          7037
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          7039
+    Length:          0
+    ReplacementText: ' + (0x6c60b12e * (0x6c60b12e == lava_get(2164, 50483, 0x6c60b12e))))'
+  - FilePath:        printf-parse.c
+    Offset:          7080
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          7082
+    Length:          0
+    ReplacementText: ' + (0x6c60aef9 * (0x6c60aef9 == lava_get(2164, 51048, 0x6c60aef9))))'
+  - FilePath:        printf-parse.c
+    Offset:          7284
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          7286
+    Length:          0
+    ReplacementText: ' + (0x6c60acc4 * (0x6c60acc4 == lava_get(2164, 51613, 0x6c60acc4))))'
+  - FilePath:        printf-parse.c
+    Offset:          7298
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          7300
+    Length:          0
+    ReplacementText: ' + (0x6c60aa8f * (0x6c60aa8f == lava_get(2164, 52178, 0x6c60aa8f))))'
+  - FilePath:        printf-parse.c
+    Offset:          8540
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          8542
+    Length:          0
+    ReplacementText: ' + (0x6c60a85a * (0x6c60a85a == lava_get(2164, 52743, 0x6c60a85a))))'
+  - FilePath:        printf-parse.c
+    Offset:          8632
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          8634
+    Length:          0
+    ReplacementText: ' + (0x6c60a625 * (0x6c60a625 == lava_get(2164, 53308, 0x6c60a625))))'
+  - FilePath:        printf-parse.c
+    Offset:          8707
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          8709
+    Length:          0
+    ReplacementText: ' + (0x6c60a3f0 * (0x6c60a3f0 == lava_get(2164, 53873, 0x6c60a3f0))))'
+  - FilePath:        printf-parse.c
+    Offset:          8782
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          8784
+    Length:          0
+    ReplacementText: ' + (0x6c60a1bb * (0x6c60a1bb == lava_get(2164, 54438, 0x6c60a1bb))))'
+  - FilePath:        printf-parse.c
+    Offset:          9049
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          9051
+    Length:          0
+    ReplacementText: ' + (0x6c609f86 * (0x6c609f86 == lava_get(2164, 55003, 0x6c609f86))))'
+  - FilePath:        printf-parse.c
+    Offset:          9063
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          9065
+    Length:          0
+    ReplacementText: ' + (0x6c609d51 * (0x6c609d51 == lava_get(2164, 55568, 0x6c609d51))))'
+  - FilePath:        printf-parse.c
+    Offset:          9499
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          9501
+    Length:          0
+    ReplacementText: ' + (0x6c609b1c * (0x6c609b1c == lava_get(2164, 56133, 0x6c609b1c))))'
+  - FilePath:        printf-parse.c
+    Offset:          10775
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        printf-parse.c
+    Offset:          10779
+    Length:          0
+    ReplacementText: ' + (0x6c6098e7 * (0x6c6098e7 == lava_get(2164, 56698, 0x6c6098e7))))'
+  - FilePath:        printf-parse.c
+    Offset:          14149
+    Length:          0
+    ReplacementText: ' + (0x6c60947d * (0x6c60947d == lava_get(2164, 57828, 0x6c60947d)))'
+  - FilePath:        printf-parse.c
+    Offset:          14423
+    Length:          0
+    ReplacementText: ' + ((0x6c608ba9 == lava_get(2186, 60088, 0x6c608ba9)) * lava_get(2167, 0, 0x0))'
+  - FilePath:        printf-parse.c
+    Offset:          14439
+    Length:          0
+    ReplacementText: ' + ((0x6c608ba9 == lava_get(2186, 60088, 0x6c608ba9)) * lava_get(2208, 0, 0x0))'
+...

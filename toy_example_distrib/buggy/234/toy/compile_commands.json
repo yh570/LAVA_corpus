@@ -1,0 +1,7 @@
+[
+{
+  "directory" : "/nas/brendan/lava/s2s/toytest/toy/bugs/234/toy",
+  "command" : "cc -c -o toy.o toy.c -I/home/moyix/git/llvm/Release/lib/clang/3.6.1/include",
+  "file" : "toy.c"
+}
+]

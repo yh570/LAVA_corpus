@@ -1,0 +1,35 @@
+---
+MainSourceFile:  head.c
+Replacements:    
+  - FilePath:        head.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        head.c
+    Offset:          21614
+    Length:          0
+    ReplacementText: 'if (&buffer) {
+lava_set(2, *(const unsigned int *)&buffer);
+}
+'
+  - FilePath:        head.c
+    Offset:          21873
+    Length:          0
+    ReplacementText: ' + (0x6c617650 * (0x6c617650 == lava_get(2, 17, 0x6c617650)))'
+...

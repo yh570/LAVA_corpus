@@ -1,0 +1,58 @@
+---
+MainSourceFile:  linebuffer.c
+Replacements:    
+  - FilePath:        linebuffer.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        linebuffer.c
+    Offset:          2227
+    Length:          0
+    ReplacementText: 'if (((*stream)._IO_buf_base)) {
+lava_set(2333, *(const unsigned int *)((*stream)._IO_buf_base));
+}
+'
+  - FilePath:        linebuffer.c
+    Offset:          2252
+    Length:          0
+    ReplacementText: 'if (((*stream)._IO_read_ptr)) {
+lava_set(3, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+if (((*stream)._IO_read_ptr)) {
+lava_set(3, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+if (((*stream)._IO_read_ptr)) {
+lava_set(3, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+if (((*stream)._IO_read_ptr)) {
+lava_set(3, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+if (((*stream)._IO_read_ptr)) {
+lava_set(2280, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+if (((*stream)._IO_read_ptr)) {
+lava_set(3002, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+if (((*stream)._IO_read_ptr)) {
+lava_set(3002, *(const unsigned int *)((*stream)._IO_read_ptr));
+}
+'
+  - FilePath:        linebuffer.c
+    Offset:          2476
+    Length:          0
+    ReplacementText: ' + (0x6c617610 * (0x6c617610 == lava_get(3, 81, 0x6c617610)))'
+  - FilePath:        linebuffer.c
+    Offset:          2495
+    Length:          0
+    ReplacementText: ' + (0x6c617628 * (0x6c617628 == lava_get(3, 57, 0x6c617628)))'
+  - FilePath:        linebuffer.c
+    Offset:          2601
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        linebuffer.c
+    Offset:          2604
+    Length:          0
+    ReplacementText: ' + (0x6c617518 * (0x6c617518 == lava_get(3, 329, 0x6c617518))))'
+...

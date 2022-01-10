@@ -1,0 +1,787 @@
+[
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT areadlink-with-size.o -MD -MP -MF .deps/areadlink-with-size.Tpo -c -o areadlink-with-size.o areadlink-with-size.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "areadlink-with-size.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT base64.o -MD -MP -MF .deps/base64.Tpo -c -o base64.o base64.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "base64.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT c-ctype.o -MD -MP -MF .deps/c-ctype.Tpo -c -o c-ctype.o c-ctype.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "c-ctype.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT c-strcasecmp.o -MD -MP -MF .deps/c-strcasecmp.Tpo -c -o c-strcasecmp.o c-strcasecmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "c-strcasecmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT c-strncasecmp.o -MD -MP -MF .deps/c-strncasecmp.Tpo -c -o c-strncasecmp.o c-strncasecmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "c-strncasecmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT diacrit.o -MD -MP -MF .deps/diacrit.Tpo -c -o diacrit.o diacrit.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "diacrit.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT file-set.o -MD -MP -MF .deps/file-set.Tpo -c -o file-set.o file-set.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "file-set.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fpurge.o -MD -MP -MF .deps/fpurge.Tpo -c -o fpurge.o fpurge.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fpurge.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT freadahead.o -MD -MP -MF .deps/freadahead.Tpo -c -o freadahead.o freadahead.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "freadahead.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT freading.o -MD -MP -MF .deps/freading.Tpo -c -o freading.o freading.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "freading.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fseterr.o -MD -MP -MF .deps/fseterr.Tpo -c -o fseterr.o fseterr.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fseterr.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT full-read.o -MD -MP -MF .deps/full-read.Tpo -c -o full-read.o full-read.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "full-read.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT full-write.o -MD -MP -MF .deps/full-write.Tpo -c -o full-write.o full-write.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "full-write.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT getdate.o -MD -MP -MF .deps/getdate.Tpo -c -o getdate.o getdate.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "getdate.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT hash-pjw.o -MD -MP -MF .deps/hash-pjw.Tpo -c -o hash-pjw.o hash-pjw.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "hash-pjw.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT hash-triple.o -MD -MP -MF .deps/hash-triple.Tpo -c -o hash-triple.o hash-triple.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "hash-triple.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT linebuffer.o -MD -MP -MF .deps/linebuffer.Tpo -c -o linebuffer.o linebuffer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "linebuffer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT localcharset.o -MD -MP -MF .deps/localcharset.Tpo -c -o localcharset.o localcharset.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "localcharset.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT malloca.o -MD -MP -MF .deps/malloca.Tpo -c -o malloca.o malloca.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "malloca.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mbchar.o -MD -MP -MF .deps/mbchar.Tpo -c -o mbchar.o mbchar.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mbchar.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mbscasecmp.o -MD -MP -MF .deps/mbscasecmp.Tpo -c -o mbscasecmp.o mbscasecmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mbscasecmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mbswidth.o -MD -MP -MF .deps/mbswidth.Tpo -c -o mbswidth.o mbswidth.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mbswidth.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT openat-die.o -MD -MP -MF .deps/openat-die.Tpo -c -o openat-die.o openat-die.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "openat-die.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT printf-frexp.o -MD -MP -MF .deps/printf-frexp.Tpo -c -o printf-frexp.o printf-frexp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "printf-frexp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT printf-frexpl.o -MD -MP -MF .deps/printf-frexpl.Tpo -c -o printf-frexpl.o printf-frexpl.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "printf-frexpl.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT randint.o -MD -MP -MF .deps/randint.Tpo -c -o randint.o randint.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "randint.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT randperm.o -MD -MP -MF .deps/randperm.Tpo -c -o randperm.o randperm.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "randperm.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT randread.o -MD -MP -MF .deps/randread.Tpo -c -o randread.o randread.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "randread.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT rand-isaac.o -MD -MP -MF .deps/rand-isaac.Tpo -c -o rand-isaac.o rand-isaac.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "rand-isaac.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT readtokens0.o -MD -MP -MF .deps/readtokens0.Tpo -c -o readtokens0.o readtokens0.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "readtokens0.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT savewd.o -MD -MP -MF .deps/savewd.Tpo -c -o savewd.o savewd.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "savewd.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT strnlen1.o -MD -MP -MF .deps/strnlen1.Tpo -c -o strnlen1.o strnlen1.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "strnlen1.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT unicodeio.o -MD -MP -MF .deps/unicodeio.Tpo -c -o unicodeio.o unicodeio.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "unicodeio.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT version-etc.o -MD -MP -MF .deps/version-etc.Tpo -c -o version-etc.o version-etc.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "version-etc.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT version-etc-fsf.o -MD -MP -MF .deps/version-etc-fsf.Tpo -c -o version-etc-fsf.o version-etc-fsf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "version-etc-fsf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xalloc-die.o -MD -MP -MF .deps/xalloc-die.Tpo -c -o xalloc-die.o xalloc-die.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xalloc-die.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xgethostname.o -MD -MP -MF .deps/xgethostname.Tpo -c -o xgethostname.o xgethostname.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xgethostname.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xmemcoll.o -MD -MP -MF .deps/xmemcoll.Tpo -c -o xmemcoll.o xmemcoll.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xmemcoll.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xprintf.o -MD -MP -MF .deps/xprintf.Tpo -c -o xprintf.o xprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrndup.o -MD -MP -MF .deps/xstrndup.Tpo -c -o xstrndup.o xstrndup.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrndup.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtoimax.o -MD -MP -MF .deps/xstrtoimax.Tpo -c -o xstrtoimax.o xstrtoimax.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtoimax.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtoumax.o -MD -MP -MF .deps/xstrtoumax.Tpo -c -o xstrtoumax.o xstrtoumax.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtoumax.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT buffer-lcm.o -MD -MP -MF .deps/buffer-lcm.Tpo -c -o buffer-lcm.o buffer-lcm.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "buffer-lcm.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xmemxfrm.o -MD -MP -MF .deps/xmemxfrm.Tpo -c -o xmemxfrm.o xmemxfrm.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xmemxfrm.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT acl.o -MD -MP -MF .deps/acl.Tpo -c -o acl.o acl.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "acl.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT argmatch.o -MD -MP -MF .deps/argmatch.Tpo -c -o argmatch.o argmatch.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "argmatch.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT asnprintf.o -MD -MP -MF .deps/asnprintf.Tpo -c -o asnprintf.o asnprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "asnprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT asprintf.o -MD -MP -MF .deps/asprintf.Tpo -c -o asprintf.o asprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "asprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT backupfile.o -MD -MP -MF .deps/backupfile.Tpo -c -o backupfile.o backupfile.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "backupfile.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT basename.o -MD -MP -MF .deps/basename.Tpo -c -o basename.o basename.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "basename.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT c-strtod.o -MD -MP -MF .deps/c-strtod.Tpo -c -o c-strtod.o c-strtod.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "c-strtod.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT c-strtold.o -MD -MP -MF .deps/c-strtold.Tpo -c -o c-strtold.o c-strtold.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "c-strtold.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT canon-host.o -MD -MP -MF .deps/canon-host.Tpo -c -o canon-host.o canon-host.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "canon-host.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT canonicalize.o -MD -MP -MF .deps/canonicalize.Tpo -c -o canonicalize.o canonicalize.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "canonicalize.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT chdir-long.o -MD -MP -MF .deps/chdir-long.Tpo -c -o chdir-long.o chdir-long.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "chdir-long.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT cloexec.o -MD -MP -MF .deps/cloexec.Tpo -c -o cloexec.o cloexec.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "cloexec.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT close-stream.o -MD -MP -MF .deps/close-stream.Tpo -c -o close-stream.o close-stream.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "close-stream.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT closein.o -MD -MP -MF .deps/closein.Tpo -c -o closein.o closein.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "closein.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT closeout.o -MD -MP -MF .deps/closeout.Tpo -c -o closeout.o closeout.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "closeout.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT creat-safer.o -MD -MP -MF .deps/creat-safer.Tpo -c -o creat-safer.o creat-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "creat-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT cycle-check.o -MD -MP -MF .deps/cycle-check.Tpo -c -o cycle-check.o cycle-check.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "cycle-check.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT dirchownmod.o -MD -MP -MF .deps/dirchownmod.Tpo -c -o dirchownmod.o dirchownmod.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "dirchownmod.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT dirname.o -MD -MP -MF .deps/dirname.Tpo -c -o dirname.o dirname.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "dirname.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT dup-safer.o -MD -MP -MF .deps/dup-safer.Tpo -c -o dup-safer.o dup-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "dup-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT exclude.o -MD -MP -MF .deps/exclude.Tpo -c -o exclude.o exclude.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "exclude.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT exitfail.o -MD -MP -MF .deps/exitfail.Tpo -c -o exitfail.o exitfail.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "exitfail.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fd-safer.o -MD -MP -MF .deps/fd-safer.Tpo -c -o fd-safer.o fd-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fd-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT file-has-acl.o -MD -MP -MF .deps/file-has-acl.Tpo -c -o file-has-acl.o file-has-acl.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "file-has-acl.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT file-type.o -MD -MP -MF .deps/file-type.Tpo -c -o file-type.o file-type.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "file-type.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT filemode.o -MD -MP -MF .deps/filemode.Tpo -c -o filemode.o filemode.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "filemode.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT filenamecat.o -MD -MP -MF .deps/filenamecat.Tpo -c -o filenamecat.o filenamecat.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "filenamecat.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fopen-safer.o -MD -MP -MF .deps/fopen-safer.Tpo -c -o fopen-safer.o fopen-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fopen-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fprintftime.o -MD -MP -MF .deps/fprintftime.Tpo -c -o fprintftime.o fprintftime.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fprintftime.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fstatat.o -MD -MP -MF .deps/fstatat.Tpo -c -o fstatat.o fstatat.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fstatat.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fsusage.o -MD -MP -MF .deps/fsusage.Tpo -c -o fsusage.o fsusage.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fsusage.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fts.o -MD -MP -MF .deps/fts.Tpo -c -o fts.o fts.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fts.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT getcwd.o -MD -MP -MF .deps/getcwd.Tpo -c -o getcwd.o getcwd.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "getcwd.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT gethrxtime.o -MD -MP -MF .deps/gethrxtime.Tpo -c -o gethrxtime.o gethrxtime.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "gethrxtime.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT getndelim2.o -MD -MP -MF .deps/getndelim2.Tpo -c -o getndelim2.o getndelim2.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "getndelim2.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT getpass.o -MD -MP -MF .deps/getpass.Tpo -c -o getpass.o getpass.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "getpass.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT gettime.o -MD -MP -MF .deps/gettime.Tpo -c -o gettime.o gettime.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "gettime.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT getugroups.o -MD -MP -MF .deps/getugroups.Tpo -c -o getugroups.o getugroups.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "getugroups.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT hard-locale.o -MD -MP -MF .deps/hard-locale.Tpo -c -o hard-locale.o hard-locale.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "hard-locale.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o hash.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "hash.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT human.o -MD -MP -MF .deps/human.Tpo -c -o human.o human.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "human.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT i-ring.o -MD -MP -MF .deps/i-ring.Tpo -c -o i-ring.o i-ring.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "i-ring.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT idcache.o -MD -MP -MF .deps/idcache.Tpo -c -o idcache.o idcache.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "idcache.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT imaxtostr.o -MD -MP -MF .deps/imaxtostr.Tpo -c -o imaxtostr.o imaxtostr.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "imaxtostr.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT isapipe.o -MD -MP -MF .deps/isapipe.Tpo -c -o isapipe.o isapipe.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "isapipe.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT isnanl.o -MD -MP -MF .deps/isnanl.Tpo -c -o isnanl.o isnanl.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "isnanl.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT long-options.o -MD -MP -MF .deps/long-options.Tpo -c -o long-options.o long-options.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "long-options.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT md5.o -MD -MP -MF .deps/md5.Tpo -c -o md5.o md5.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "md5.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT memcasecmp.o -MD -MP -MF .deps/memcasecmp.Tpo -c -o memcasecmp.o memcasecmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "memcasecmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT memcoll.o -MD -MP -MF .deps/memcoll.Tpo -c -o memcoll.o memcoll.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "memcoll.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mgetgroups.o -MD -MP -MF .deps/mgetgroups.Tpo -c -o mgetgroups.o mgetgroups.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mgetgroups.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mkancesdirs.o -MD -MP -MF .deps/mkancesdirs.Tpo -c -o mkancesdirs.o mkancesdirs.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mkancesdirs.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mkdir-p.o -MD -MP -MF .deps/mkdir-p.Tpo -c -o mkdir-p.o mkdir-p.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mkdir-p.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mkstemp-safer.o -MD -MP -MF .deps/mkstemp-safer.Tpo -c -o mkstemp-safer.o mkstemp-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mkstemp-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT modechange.o -MD -MP -MF .deps/modechange.Tpo -c -o modechange.o modechange.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "modechange.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mountlist.o -MD -MP -MF .deps/mountlist.Tpo -c -o mountlist.o mountlist.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mountlist.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT mpsort.o -MD -MP -MF .deps/mpsort.Tpo -c -o mpsort.o mpsort.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "mpsort.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT offtostr.o -MD -MP -MF .deps/offtostr.Tpo -c -o offtostr.o offtostr.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "offtostr.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT open-safer.o -MD -MP -MF .deps/open-safer.Tpo -c -o open-safer.o open-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "open-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT openat-proc.o -MD -MP -MF .deps/openat-proc.Tpo -c -o openat-proc.o openat-proc.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "openat-proc.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT physmem.o -MD -MP -MF .deps/physmem.Tpo -c -o physmem.o physmem.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "physmem.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT pipe-safer.o -MD -MP -MF .deps/pipe-safer.Tpo -c -o pipe-safer.o pipe-safer.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "pipe-safer.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT posixtm.o -MD -MP -MF .deps/posixtm.Tpo -c -o posixtm.o posixtm.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "posixtm.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT posixver.o -MD -MP -MF .deps/posixver.Tpo -c -o posixver.o posixver.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "posixver.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT printf-args.o -MD -MP -MF .deps/printf-args.Tpo -c -o printf-args.o printf-args.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "printf-args.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT printf-parse.o -MD -MP -MF .deps/printf-parse.Tpo -c -o printf-parse.o printf-parse.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "printf-parse.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT quote.o -MD -MP -MF .deps/quote.Tpo -c -o quote.o quote.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "quote.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT quotearg.o -MD -MP -MF .deps/quotearg.Tpo -c -o quotearg.o quotearg.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "quotearg.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT readtokens.o -MD -MP -MF .deps/readtokens.Tpo -c -o readtokens.o readtokens.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "readtokens.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT readutmp.o -MD -MP -MF .deps/readutmp.Tpo -c -o readutmp.o readutmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "readutmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT root-dev-ino.o -MD -MP -MF .deps/root-dev-ino.Tpo -c -o root-dev-ino.o root-dev-ino.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "root-dev-ino.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT safe-read.o -MD -MP -MF .deps/safe-read.Tpo -c -o safe-read.o safe-read.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "safe-read.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT safe-write.o -MD -MP -MF .deps/safe-write.Tpo -c -o safe-write.o safe-write.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "safe-write.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT same.o -MD -MP -MF .deps/same.Tpo -c -o same.o same.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "same.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT save-cwd.o -MD -MP -MF .deps/save-cwd.Tpo -c -o save-cwd.o save-cwd.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "save-cwd.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT savedir.o -MD -MP -MF .deps/savedir.Tpo -c -o savedir.o savedir.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "savedir.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT selinux-at.o -MD -MP -MF .deps/selinux-at.Tpo -c -o selinux-at.o selinux-at.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "selinux-at.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT settime.o -MD -MP -MF .deps/settime.Tpo -c -o settime.o settime.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "settime.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT sha1.o -MD -MP -MF .deps/sha1.Tpo -c -o sha1.o sha1.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "sha1.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT sha512.o -MD -MP -MF .deps/sha512.Tpo -c -o sha512.o sha512.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "sha512.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT sha256.o -MD -MP -MF .deps/sha256.Tpo -c -o sha256.o sha256.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "sha256.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT sig2str.o -MD -MP -MF .deps/sig2str.Tpo -c -o sig2str.o sig2str.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "sig2str.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT strftime.o -MD -MP -MF .deps/strftime.Tpo -c -o strftime.o strftime.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "strftime.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT stripslash.o -MD -MP -MF .deps/stripslash.Tpo -c -o stripslash.o stripslash.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "stripslash.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT tempname.o -MD -MP -MF .deps/tempname.Tpo -c -o tempname.o tempname.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "tempname.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT uinttostr.o -MD -MP -MF .deps/uinttostr.Tpo -c -o uinttostr.o uinttostr.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "uinttostr.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT umaxtostr.o -MD -MP -MF .deps/umaxtostr.Tpo -c -o umaxtostr.o umaxtostr.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "umaxtostr.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT unlinkdir.o -MD -MP -MF .deps/unlinkdir.Tpo -c -o unlinkdir.o unlinkdir.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "unlinkdir.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT userspec.o -MD -MP -MF .deps/userspec.Tpo -c -o userspec.o userspec.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "userspec.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT utimecmp.o -MD -MP -MF .deps/utimecmp.Tpo -c -o utimecmp.o utimecmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "utimecmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT utimens.o -MD -MP -MF .deps/utimens.Tpo -c -o utimens.o utimens.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "utimens.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT vasnprintf.o -MD -MP -MF .deps/vasnprintf.Tpo -c -o vasnprintf.o vasnprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "vasnprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT vasprintf.o -MD -MP -MF .deps/vasprintf.Tpo -c -o vasprintf.o vasprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "vasprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT vfprintf.o -MD -MP -MF .deps/vfprintf.Tpo -c -o vfprintf.o vfprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "vfprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT vprintf.o -MD -MP -MF .deps/vprintf.Tpo -c -o vprintf.o vprintf.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "vprintf.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT write-any-file.o -MD -MP -MF .deps/write-any-file.Tpo -c -o write-any-file.o write-any-file.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "write-any-file.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xgetcwd.o -MD -MP -MF .deps/xgetcwd.Tpo -c -o xgetcwd.o xgetcwd.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xgetcwd.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xmalloc.o -MD -MP -MF .deps/xmalloc.Tpo -c -o xmalloc.o xmalloc.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xmalloc.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xnanosleep.o -MD -MP -MF .deps/xnanosleep.Tpo -c -o xnanosleep.o xnanosleep.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xnanosleep.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtod.o -MD -MP -MF .deps/xstrtod.Tpo -c -o xstrtod.o xstrtod.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtod.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtol.o -MD -MP -MF .deps/xstrtol.Tpo -c -o xstrtol.o xstrtol.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtol.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtol-error.o -MD -MP -MF .deps/xstrtol-error.Tpo -c -o xstrtol-error.o xstrtol-error.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtol-error.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtold.o -MD -MP -MF .deps/xstrtold.Tpo -c -o xstrtold.o xstrtold.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtold.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xstrtoul.o -MD -MP -MF .deps/xstrtoul.Tpo -c -o xstrtoul.o xstrtoul.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xstrtoul.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT yesno.o -MD -MP -MF .deps/yesno.Tpo -c -o yesno.o yesno.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "yesno.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT euidaccess-stat.o -MD -MP -MF .deps/euidaccess-stat.Tpo -c -o euidaccess-stat.o euidaccess-stat.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "euidaccess-stat.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT fd-reopen.o -MD -MP -MF .deps/fd-reopen.Tpo -c -o fd-reopen.o fd-reopen.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "fd-reopen.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT xfts.o -MD -MP -MF .deps/xfts.Tpo -c -o xfts.o xfts.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "xfts.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT memxfrm.o -MD -MP -MF .deps/memxfrm.Tpo -c -o memxfrm.o memxfrm.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "memxfrm.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT strintcmp.o -MD -MP -MF .deps/strintcmp.Tpo -c -o strintcmp.o strintcmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "strintcmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT strnumcmp.o -MD -MP -MF .deps/strnumcmp.Tpo -c -o strnumcmp.o strnumcmp.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "strnumcmp.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/lib",
+  "command" : "gcc -std=gnu99 -I. -g -O2 -MT uniwidth/width.o -MD -MP -MF uniwidth/.deps/width.Tpo -c -o uniwidth/width.o uniwidth/width.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "uniwidth/width.c"
+},
+{
+  "directory" : "/home/yh570/lava_z/test/cut/test/bugs/1/coreutils-6.11/src",
+  "command" : "gcc -std=gnu99 -I. -I../lib -I../lib -g -O2 -MT cut.o -MD -MP -MF .deps/cut.Tpo -c -o cut.o cut.c -I/llvm-3.6.2/Release/lib/clang/3.6.2/include",
+  "file" : "cut.c"
+}
+]

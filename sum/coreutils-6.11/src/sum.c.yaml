@@ -1,0 +1,81 @@
+---
+MainSourceFile:  sum.c
+Replacements:    
+  - FilePath:        sum.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        sum.c
+    Offset:          3183
+    Length:          0
+    ReplacementText: 'if (((*fp)._IO_read_base)) {
+lava_set(741706, *(const unsigned int *)((*fp)._IO_read_base));
+}
+'
+  - FilePath:        sum.c
+    Offset:          3204
+    Length:          0
+    ReplacementText: 'if (((*fp)._IO_write_base)) {
+lava_set(741713, *(const unsigned int *)((*fp)._IO_write_base));
+}
+if (((*fp)._IO_write_base)) {
+lava_set(741713, *(const unsigned int *)((*fp)._IO_write_base));
+}
+'
+  - FilePath:        sum.c
+    Offset:          3263
+    Length:          0
+    ReplacementText: 'if (((*fp)._IO_read_ptr)) {
+lava_set(741717, *(const unsigned int *)((*fp)._IO_read_ptr));
+}
+'
+  - FilePath:        sum.c
+    Offset:          3285
+    Length:          0
+    ReplacementText: 'if (((*fp)._IO_write_ptr)) {
+lava_set(741726, *(const unsigned int *)((*fp)._IO_write_ptr));
+}
+if (((*fp)._IO_write_base)) {
+lava_set(741725, *(const unsigned int *)((*fp)._IO_write_base));
+}
+'
+  - FilePath:        sum.c
+    Offset:          3466
+    Length:          0
+    ReplacementText: 'if (((*fp)._IO_buf_base)) {
+lava_set(741759, *(const unsigned int *)((*fp)._IO_buf_base));
+}
+'
+  - FilePath:        sum.c
+    Offset:          3493
+    Length:          0
+    ReplacementText: ' + (0x6c6175a4 * (0x6c6175a4 == lava_get(741706, 189, 0x6c6175a4)))'
+  - FilePath:        sum.c
+    Offset:          3592
+    Length:          0
+    ReplacementText: '(0x6c6173cf == lava_get(741713, 658, 0x6c6173cf)) ? &(checksum) : ('
+  - FilePath:        sum.c
+    Offset:          3600
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        sum.c
+    Offset:          3663
+    Length:          0
+    ReplacementText: ' + (0x6c617417 * (0x6c617417 == lava_get(741725, 586, 0x6c617417)))'
+...

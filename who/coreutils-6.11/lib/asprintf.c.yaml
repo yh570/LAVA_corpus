@@ -1,0 +1,22 @@
+---
+MainSourceFile:  asprintf.c
+Replacements:    
+  - FilePath:        asprintf.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        asprintf.c
+    Offset:          1193
+    Length:          0
+    ReplacementText: ' + (0x6c60e3f1 * (0x6c60e3f1 == lava_get(2164, 37488, 0x6c60e3f1)))'
+  - FilePath:        asprintf.c
+    Offset:          1201
+    Length:          0
+    ReplacementText: ' + (0x6c60e626 * (0x6c60e626 == lava_get(2164, 36923, 0x6c60e626)))'
+  - FilePath:        asprintf.c
+    Offset:          1207
+    Length:          0
+    ReplacementText: ' + (0x6c60e85b * (0x6c60e85b == lava_get(2164, 36358, 0x6c60e85b)))'
+...

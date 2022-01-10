@@ -1,0 +1,54 @@
+---
+MainSourceFile:  full-write.c
+Replacements:    
+  - FilePath:        full-write.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        full-write.c
+    Offset:          2027
+    Length:          0
+    ReplacementText: 'if (ptr) {
+lava_set(1, *(const unsigned int *)ptr);
+}
+'
+  - FilePath:        full-write.c
+    Offset:          2057
+    Length:          0
+    ReplacementText: 'if (ptr) {
+lava_set(2, *(const unsigned int *)ptr);
+}
+if (ptr) {
+lava_set(2, *(const unsigned int *)ptr);
+}
+if (ptr) {
+lava_set(2, *(const unsigned int *)ptr);
+}
+if (ptr) {
+lava_set(9, *(const unsigned int *)ptr);
+}
+'
+  - FilePath:        full-write.c
+    Offset:          2094
+    Length:          0
+    ReplacementText: ' + (0x6c61765f * (0x6c61765f == lava_get(2, 2, 0x6c61765f)))'
+  - FilePath:        full-write.c
+    Offset:          2142
+    Length:          0
+    ReplacementText: 'if (ptr) {
+lava_set(4, *(const unsigned int *)ptr);
+}
+if (ptr) {
+lava_set(11, *(const unsigned int *)ptr);
+}
+'
+  - FilePath:        full-write.c
+    Offset:          2216
+    Length:          0
+    ReplacementText: 'if (ptr) {
+lava_set(12, *(const unsigned int *)ptr);
+}
+'
+...

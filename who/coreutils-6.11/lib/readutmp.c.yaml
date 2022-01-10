@@ -1,0 +1,430 @@
+---
+MainSourceFile:  readutmp.c
+Replacements:    
+  - FilePath:        readutmp.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        readutmp.c
+    Offset:          3198
+    Length:          0
+    ReplacementText: ' + (0x6c617570 * (0x6c617570 == lava_get(3, 241, 0x6c617570)))'
+  - FilePath:        readutmp.c
+    Offset:          3219
+    Length:          0
+    ReplacementText: 'if (u) {
+lava_set(3, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(3, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(3, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(3, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(3, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (u) {
+lava_set(2164, *(const unsigned int *)u);
+}
+if (&((*u).ut_line)) {
+lava_set(2167, *(const unsigned int *)&((*u).ut_line));
+}
+if (utmp) {
+lava_set(2208, *(const unsigned int *)utmp);
+}
+'
+  - FilePath:        readutmp.c
+    Offset:          3268
+    Length:          0
+    ReplacementText: ' + (0x6c617640 * (0x6c617640 == lava_get(3, 33, 0x6c617640)))'
+  - FilePath:        readutmp.c
+    Offset:          3278
+    Length:          0
+    ReplacementText: ' + (0x6c617656 * (0x6c617656 == lava_get(3, 11, 0x6c617656)))'
+  - FilePath:        readutmp.c
+    Offset:          3297
+    Length:          0
+    ReplacementText: 'if (u) {
+lava_set(2186, *(const unsigned int *)u);
+}
+if (((*u).ut_id)) {
+lava_set(2192, *(const unsigned int *)((*u).ut_id));
+}
+'
+  - FilePath:        readutmp.c
+    Offset:          3310
+    Length:          0
+    ReplacementText: ' + (0x6c6175f4 * (0x6c6175f4 == lava_get(3, 109, 0x6c6175f4)))'
+  - FilePath:        readutmp.c
+    Offset:          3315
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        readutmp.c
+    Offset:          3316
+    Length:          0
+    ReplacementText: ' + (0x6c6175c8 * (0x6c6175c8 == lava_get(3, 153, 0x6c6175c8))))'
+  - FilePath:        readutmp.c
+    Offset:          3350
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        readutmp.c
+    Offset:          3359
+    Length:          0
+    ReplacementText: ' + (0x6c6172e6 * (0x6c6172e6 == lava_get(2164, 891, 0x6c6172e6))))'
+  - FilePath:        readutmp.c
+    Offset:          3373
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        readutmp.c
+    Offset:          3381
+    Length:          0
+    ReplacementText: ' + (0x6c617200 * (0x6c617200 == lava_get(2164, 1121, 0x6c617200))))'
+...

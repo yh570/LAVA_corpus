@@ -1,0 +1,239 @@
+---
+MainSourceFile:  od.c
+Replacements:    
+  - FilePath:        od.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        od.c
+    Offset:          13951
+    Length:          0
+    ReplacementText: ' + (0x6c6175f0 * (0x6c6175f0 == lava_get(1, 113, 0x6c6175f0)))'
+  - FilePath:        od.c
+    Offset:          13953
+    Length:          0
+    ReplacementText: '(0x6c617604 == lava_get(1, 93, 0x6c617604)) ? &(*p++) : ('
+  - FilePath:        od.c
+    Offset:          13957
+    Length:          0
+    ReplacementText: ' + (0x6c61760e * (0x6c61760e == lava_get(1, 83, 0x6c61760e))))'
+  - FilePath:        od.c
+    Offset:          29017
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          29020
+    Length:          0
+    ReplacementText: ' + (0x6c617652 * (0x6c617652 == lava_get(1, 15, 0x6c617652))))'
+  - FilePath:        od.c
+    Offset:          29032
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          29035
+    Length:          0
+    ReplacementText: ' + (0x6c61764b * (0x6c61764b == lava_get(1, 22, 0x6c61764b))))'
+  - FilePath:        od.c
+    Offset:          29233
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          29236
+    Length:          0
+    ReplacementText: ' + (0x6c617644 * (0x6c617644 == lava_get(1, 29, 0x6c617644))))'
+  - FilePath:        od.c
+    Offset:          29558
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          29561
+    Length:          0
+    ReplacementText: ' + (0x6c61763d * (0x6c61763d == lava_get(1, 36, 0x6c61763d))))'
+  - FilePath:        od.c
+    Offset:          30740
+    Length:          0
+    ReplacementText: 'if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(1, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+if (curr_block) {
+lava_set(11, *(const unsigned int *)curr_block);
+}
+'
+  - FilePath:        od.c
+    Offset:          31448
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          31454
+    Length:          0
+    ReplacementText: ' + (0x6c617636 * (0x6c617636 == lava_get(1, 43, 0x6c617636)))'
+  - FilePath:        od.c
+    Offset:          31470
+    Length:          0
+    ReplacementText: ' + (0x6c61762e * (0x6c61762e == lava_get(1, 51, 0x6c61762e))))'
+  - FilePath:        od.c
+    Offset:          31480
+    Length:          0
+    ReplacementText: ' + (0x6c617616 * (0x6c617616 == lava_get(1, 75, 0x6c617616)))'
+  - FilePath:        od.c
+    Offset:          31492
+    Length:          0
+    ReplacementText: ' + (0x6c61761e * (0x6c61761e == lava_get(1, 67, 0x6c61761e)))'
+  - FilePath:        od.c
+    Offset:          31500
+    Length:          0
+    ReplacementText: ' + (0x6c617626 * (0x6c617626 == lava_get(1, 59, 0x6c617626)))'
+  - FilePath:        od.c
+    Offset:          31528
+    Length:          0
+    ReplacementText: ' + (0x6c6174dd * (0x6c6174dd == lava_get(14, 388, 0x6c6174dd)))'
+  - FilePath:        od.c
+    Offset:          31941
+    Length:          0
+    ReplacementText: 'if (curr_block) {
+lava_set(14, *(const unsigned int *)curr_block);
+}
+'
+  - FilePath:        od.c
+    Offset:          33894
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          33911
+    Length:          0
+    ReplacementText: ' + (0x6c6175ca * (0x6c6175ca == lava_get(11, 151, 0x6c6175ca))))'
+  - FilePath:        od.c
+    Offset:          34063
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          34080
+    Length:          0
+    ReplacementText: ' + (0x6c6175c3 * (0x6c6175c3 == lava_get(11, 158, 0x6c6175c3))))'
+  - FilePath:        od.c
+    Offset:          34165
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        od.c
+    Offset:          34182
+    Length:          0
+    ReplacementText: ' + (0x6c6175bc * (0x6c6175bc == lava_get(11, 165, 0x6c6175bc))))'
+  - FilePath:        od.c
+    Offset:          36893
+    Length:          0
+    ReplacementText: ' + (0x6c6175d1 * (0x6c6175d1 == lava_get(11, 144, 0x6c6175d1)))'
+  - FilePath:        od.c
+    Offset:          36904
+    Length:          0
+    ReplacementText: ' + (0x6c6175df * (0x6c6175df == lava_get(11, 130, 0x6c6175df)))'
+  - FilePath:        od.c
+    Offset:          36905
+    Length:          0
+    ReplacementText: ' + (0x6c6175d8 * (0x6c6175d8 == lava_get(11, 137, 0x6c6175d8)))'
+  - FilePath:        od.c
+    Offset:          36920
+    Length:          0
+    ReplacementText: ' + (0x6c6175e6 * (0x6c6175e6 == lava_get(11, 123, 0x6c6175e6)))'
+  - FilePath:        od.c
+    Offset:          37063
+    Length:          0
+    ReplacementText: ' + (0x6c617599 * (0x6c617599 == lava_get(11, 200, 0x6c617599)))'
+  - FilePath:        od.c
+    Offset:          37084
+    Length:          0
+    ReplacementText: ' + (0x6c6175a7 * (0x6c6175a7 == lava_get(11, 186, 0x6c6175a7)))'
+  - FilePath:        od.c
+    Offset:          37085
+    Length:          0
+    ReplacementText: ' + (0x6c6175a0 * (0x6c6175a0 == lava_get(11, 193, 0x6c6175a0)))'
+  - FilePath:        od.c
+    Offset:          37096
+    Length:          0
+    ReplacementText: ' + (0x6c6175b5 * (0x6c6175b5 == lava_get(11, 172, 0x6c6175b5)))'
+  - FilePath:        od.c
+    Offset:          37097
+    Length:          0
+    ReplacementText: ' + (0x6c6175ae * (0x6c6175ae == lava_get(11, 179, 0x6c6175ae)))'
+...

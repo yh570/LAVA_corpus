@@ -1,0 +1,14 @@
+---
+MainSourceFile:  printf-args.c
+Replacements:    
+  - FilePath:        printf-args.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        printf-args.c
+    Offset:          1451
+    Length:          0
+    ReplacementText: ' + (0x6c608307 * (0x6c608307 == lava_get(2164, 62298, 0x6c608307)))'
+...

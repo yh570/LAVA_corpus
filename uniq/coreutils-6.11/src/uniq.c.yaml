@@ -1,0 +1,40 @@
+---
+MainSourceFile:  uniq.c
+Replacements:    
+  - FilePath:        uniq.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        uniq.c
+    Offset:          8927
+    Length:          0
+    ReplacementText: ' + (0x6c6171e4 * (0x6c6171e4 == lava_get(2280, 1149, 0x6c6171e4)))'
+  - FilePath:        uniq.c
+    Offset:          9000
+    Length:          0
+    ReplacementText: ' + (0x6c617207 * (0x6c617207 == lava_get(2333, 1114, 0x6c617207)))'
+  - FilePath:        uniq.c
+    Offset:          9130
+    Length:          0
+    ReplacementText: ' + (0x6c6170a9 * (0x6c6170a9 == lava_get(3002, 1464, 0x6c6170a9)))'
+  - FilePath:        uniq.c
+    Offset:          9141
+    Length:          0
+    ReplacementText: ' + (0x6c6170c5 * (0x6c6170c5 == lava_get(3002, 1436, 0x6c6170c5)))'
+...

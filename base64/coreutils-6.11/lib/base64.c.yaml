@@ -1,0 +1,369 @@
+---
+MainSourceFile:  base64.c
+Replacements:    
+  - FilePath:        base64.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        base64.c
+    Offset:          9668
+    Length:          0
+    ReplacementText: ' + (0x6c61755a * (0x6c61755a == lava_get(15, 263, 0x6c61755a)))'
+  - FilePath:        base64.c
+    Offset:          11714
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          11718
+    Length:          0
+    ReplacementText: ' + (0x6c617643 * (0x6c617643 == lava_get(1, 30, 0x6c617643))))'
+  - FilePath:        base64.c
+    Offset:          11777
+    Length:          0
+    ReplacementText: ' + (0x6c617639 * (0x6c617639 == lava_get(3, 40, 0x6c617639)))'
+  - FilePath:        base64.c
+    Offset:          11798
+    Length:          0
+    ReplacementText: ' + (0x6c617069 * (0x6c617069 == lava_get(30, 1528, 0x6c617069)))'
+  - FilePath:        base64.c
+    Offset:          11823
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(11, *(const unsigned int *)in);
+}
+if (*(outp)) {
+lava_set(64, *(const unsigned int *)((const unsigned char *)*(outp) + 27));
+}
+'
+  - FilePath:        base64.c
+    Offset:          11828
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          11835
+    Length:          0
+    ReplacementText: ' + (0x6c617043 * (0x6c617043 == lava_get(30, 1566, 0x6c617043))))'
+  - FilePath:        base64.c
+    Offset:          11850
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          11855
+    Length:          0
+    ReplacementText: ' + (0x6c61702b * (0x6c61702b == lava_get(33, 1590, 0x6c61702b))))'
+  - FilePath:        base64.c
+    Offset:          11880
+    Length:          0
+    ReplacementText: ' + (0x6c61726b * (0x6c61726b == lava_get(13, 1014, 0x6c61726b)))'
+  - FilePath:        base64.c
+    Offset:          11911
+    Length:          0
+    ReplacementText: ' + (0x6c61725a * (0x6c61725a == lava_get(13, 1031, 0x6c61725a)))'
+  - FilePath:        base64.c
+    Offset:          11913
+    Length:          0
+    ReplacementText: ' + (0x6c617238 * (0x6c617238 == lava_get(13, 1065, 0x6c617238)))'
+  - FilePath:        base64.c
+    Offset:          11929
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(13, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(13, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(13, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          11932
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          11939
+    Length:          0
+    ReplacementText: ' + (0x6c616f7a * (0x6c616f7a == lava_get(64, 1767, 0x6c616f7a))))'
+  - FilePath:        base64.c
+    Offset:          11987
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(15, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          11995
+    Length:          0
+    ReplacementText: ' + (0x6c616f74 * (0x6c616f74 == lava_get(30, 1773, 0x6c616f74)))'
+  - FilePath:        base64.c
+    Offset:          12132
+    Length:          0
+    ReplacementText: ' + (0x6c61757a * (0x6c61757a == lava_get(11, 231, 0x6c61757a)))'
+  - FilePath:        base64.c
+    Offset:          12133
+    Length:          0
+    ReplacementText: ' + (0x6c6171f0 * (0x6c6171f0 == lava_get(29, 1137, 0x6c6171f0)))'
+  - FilePath:        base64.c
+    Offset:          12163
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12170
+    Length:          0
+    ReplacementText: ' + (0x6c617558 * (0x6c617558 == lava_get(1, 265, 0x6c617558))))'
+  - FilePath:        base64.c
+    Offset:          12179
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12184
+    Length:          0
+    ReplacementText: ' + (0x6c617547 * (0x6c617547 == lava_get(1, 282, 0x6c617547))))'
+  - FilePath:        base64.c
+    Offset:          12208
+    Length:          0
+    ReplacementText: ' + (0x6c617535 * (0x6c617535 == lava_get(1, 300, 0x6c617535)))'
+  - FilePath:        base64.c
+    Offset:          12209
+    Length:          0
+    ReplacementText: ' + (0x6c6171c3 * (0x6c6171c3 == lava_get(29, 1182, 0x6c6171c3)))'
+  - FilePath:        base64.c
+    Offset:          12210
+    Length:          0
+    ReplacementText: ' + (0x6c6171b8 * (0x6c6171b8 == lava_get(29, 1193, 0x6c6171b8)))'
+  - FilePath:        base64.c
+    Offset:          12253
+    Length:          0
+    ReplacementText: ' + (0x6c6171ad * (0x6c6171ad == lava_get(29, 1204, 0x6c6171ad)))'
+  - FilePath:        base64.c
+    Offset:          12254
+    Length:          0
+    ReplacementText: ' + (0x6c6171a2 * (0x6c6171a2 == lava_get(29, 1215, 0x6c6171a2)))'
+  - FilePath:        base64.c
+    Offset:          12255
+    Length:          0
+    ReplacementText: ' + (0x6c617197 * (0x6c617197 == lava_get(29, 1226, 0x6c617197)))'
+  - FilePath:        base64.c
+    Offset:          12268
+    Length:          0
+    ReplacementText: 'if (out) {
+lava_set(30, *((const unsigned int *)out + 7));
+}
+if (out) {
+lava_set(30, *((const unsigned int *)out + 7));
+}
+if (out) {
+lava_set(30, *((const unsigned int *)out + 7));
+}
+'
+  - FilePath:        base64.c
+    Offset:          12271
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12278
+    Length:          0
+    ReplacementText: ' + (0x6c61718d * (0x6c61718d == lava_get(29, 1236, 0x6c61718d))))'
+  - FilePath:        base64.c
+    Offset:          12336
+    Length:          0
+    ReplacementText: ' + (0x6c617185 * (0x6c617185 == lava_get(29, 1244, 0x6c617185)))'
+  - FilePath:        base64.c
+    Offset:          12407
+    Length:          0
+    ReplacementText: 'if (out) {
+lava_set(33, *((const unsigned int *)out + 7));
+}
+'
+  - FilePath:        base64.c
+    Offset:          12426
+    Length:          0
+    ReplacementText: ' + (0x6c61717e * (0x6c61717e == lava_get(29, 1251, 0x6c61717e)))'
+  - FilePath:        base64.c
+    Offset:          12458
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12465
+    Length:          0
+    ReplacementText: ' + (0x6c617469 * (0x6c617469 == lava_get(1, 504, 0x6c617469))))'
+  - FilePath:        base64.c
+    Offset:          12481
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(24, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          12482
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12487
+    Length:          0
+    ReplacementText: ' + (0x6c617452 * (0x6c617452 == lava_get(1, 527, 0x6c617452))))'
+  - FilePath:        base64.c
+    Offset:          12511
+    Length:          0
+    ReplacementText: ' + (0x6c617439 * (0x6c617439 == lava_get(2, 552, 0x6c617439)))'
+  - FilePath:        base64.c
+    Offset:          12513
+    Length:          0
+    ReplacementText: ' + (0x6c617161 * (0x6c617161 == lava_get(25, 1280, 0x6c617161)))'
+  - FilePath:        base64.c
+    Offset:          12552
+    Length:          0
+    ReplacementText: ' + (0x6c61715a * (0x6c61715a == lava_get(27, 1287, 0x6c61715a)))'
+  - FilePath:        base64.c
+    Offset:          12554
+    Length:          0
+    ReplacementText: ' + (0x6c617152 * (0x6c617152 == lava_get(25, 1295, 0x6c617152)))'
+  - FilePath:        base64.c
+    Offset:          12565
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(25, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(25, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          12568
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12575
+    Length:          0
+    ReplacementText: ' + (0x6c61714d * (0x6c61714d == lava_get(26, 1300, 0x6c61714d))))'
+  - FilePath:        base64.c
+    Offset:          12596
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(26, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          12597
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          12601
+    Length:          0
+    ReplacementText: ' + (0x6c61737a * (0x6c61737a == lava_get(24, 743, 0x6c61737a))))'
+  - FilePath:        base64.c
+    Offset:          12611
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(27, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          13645
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(1, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          13705
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(2, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          13730
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(3, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          13926
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(6, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          13974
+    Length:          0
+    ReplacementText: ' + (0x6c61764a * (0x6c61764a == lava_get(1, 23, 0x6c61764a)))'
+  - FilePath:        base64.c
+    Offset:          13987
+    Length:          0
+    ReplacementText: ' + (0x6c617658 * (0x6c617658 == lava_get(1, 9, 0x6c617658)))'
+  - FilePath:        base64.c
+    Offset:          13997
+    Length:          0
+    ReplacementText: ' + (0x6c61765a * (0x6c61765a == lava_get(6, 7, 0x6c61765a)))'
+  - FilePath:        base64.c
+    Offset:          14033
+    Length:          0
+    ReplacementText: 'if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+if (in) {
+lava_set(29, *(const unsigned int *)in);
+}
+'
+  - FilePath:        base64.c
+    Offset:          14856
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        base64.c
+    Offset:          14862
+    Length:          0
+    ReplacementText: ' + (0x6c616266 * (0x6c616266 == lava_get(1, 5115, 0x6c616266))))'
+...

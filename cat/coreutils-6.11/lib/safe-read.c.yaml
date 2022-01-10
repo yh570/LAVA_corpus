@@ -1,0 +1,14 @@
+---
+MainSourceFile:  safe-read.c
+Replacements:    
+  - FilePath:        safe-read.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        safe-read.c
+    Offset:          1919
+    Length:          0
+    ReplacementText: ' + (0x6c61765a * (0x6c61765a == lava_get(1, 7, 0x6c61765a)))'
+...

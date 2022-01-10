@@ -1,0 +1,34 @@
+---
+MainSourceFile:  human.c
+Replacements:    
+  - FilePath:        human.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        human.c
+    Offset:          5701
+    Length:          0
+    ReplacementText: ' + (0x6c6174cb * (0x6c6174cb == lava_get(741713, 406, 0x6c6174cb)))'
+  - FilePath:        human.c
+    Offset:          5893
+    Length:          0
+    ReplacementText: ' + (0x6c617494 * (0x6c617494 == lava_get(741726, 461, 0x6c617494)))'
+  - FilePath:        human.c
+    Offset:          9777
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        human.c
+    Offset:          9780
+    Length:          0
+    ReplacementText: ' + (0x6c617473 * (0x6c617473 == lava_get(741717, 494, 0x6c617473))))'
+  - FilePath:        human.c
+    Offset:          10516
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        human.c
+    Offset:          10523
+    Length:          0
+    ReplacementText: ' + (0x6c61742c * (0x6c61742c == lava_get(741759, 565, 0x6c61742c))))'
+...

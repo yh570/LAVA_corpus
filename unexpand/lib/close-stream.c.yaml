@@ -1,0 +1,18 @@
+---
+MainSourceFile:  close-stream.c
+Replacements:    
+  - FilePath:        close-stream.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        close-stream.c
+    Offset:          2143
+    Length:          0
+    ReplacementText: ' + (0x6c6175d4 * (0x6c6175d4 == lava_get(36, 141, 0x6c6175d4)))'
+  - FilePath:        close-stream.c
+    Offset:          2231
+    Length:          0
+    ReplacementText: ' + (0x6c6175af * (0x6c6175af == lava_get(38, 178, 0x6c6175af)))'
+...

@@ -1,0 +1,170 @@
+---
+MainSourceFile:  vasnprintf.c
+Replacements:    
+  - FilePath:        vasnprintf.c
+    Offset:          0
+    Length:          0
+    ReplacementText: 'void lava_set(unsigned int bn, unsigned int val);
+extern unsigned int lava_get(unsigned int, unsigned int, unsigned int);
+'
+  - FilePath:        vasnprintf.c
+    Offset:          39528
+    Length:          0
+    ReplacementText: ' + (0x6c60d6b3 * (0x6c60d6b3 == lava_get(2164, 40878, 0x6c60d6b3)))'
+  - FilePath:        vasnprintf.c
+    Offset:          39532
+    Length:          0
+    ReplacementText: ' + (0x6c60d8e8 * (0x6c60d8e8 == lava_get(2164, 40313, 0x6c60d8e8)))'
+  - FilePath:        vasnprintf.c
+    Offset:          39536
+    Length:          0
+    ReplacementText: ' + (0x6c60db1d * (0x6c60db1d == lava_get(2164, 39748, 0x6c60db1d)))'
+  - FilePath:        vasnprintf.c
+    Offset:          39708
+    Length:          0
+    ReplacementText: ' + (0x6c60853c * (0x6c60853c == lava_get(2164, 61733, 0x6c60853c)))'
+  - FilePath:        vasnprintf.c
+    Offset:          39712
+    Length:          0
+    ReplacementText: ' + (0x6c608771 * (0x6c608771 == lava_get(2164, 61168, 0x6c608771)))'
+  - FilePath:        vasnprintf.c
+    Offset:          40351
+    Length:          0
+    ReplacementText: ' + (0x6c6077fe * (0x6c6077fe == lava_get(2164, 65123, 0x6c6077fe)))'
+  - FilePath:        vasnprintf.c
+    Offset:          41984
+    Length:          0
+    ReplacementText: ' + (0x6c6075c9 * (0x6c6075c9 == lava_get(2164, 65688, 0x6c6075c9)))'
+  - FilePath:        vasnprintf.c
+    Offset:          42136
+    Length:          0
+    ReplacementText: ' + (0x6c604bda * (0x6c604bda == lava_get(2164, 76423, 0x6c604bda)))'
+  - FilePath:        vasnprintf.c
+    Offset:          42139
+    Length:          0
+    ReplacementText: ' + (0x6c604e0f * (0x6c604e0f == lava_get(2164, 75858, 0x6c604e0f)))'
+  - FilePath:        vasnprintf.c
+    Offset:          42463
+    Length:          0
+    ReplacementText: ' + (0x6c60453b * (0x6c60453b == lava_get(2164, 78118, 0x6c60453b)))'
+  - FilePath:        vasnprintf.c
+    Offset:          42485
+    Length:          0
+    ReplacementText: ' + (0x6c604770 * (0x6c604770 == lava_get(2164, 77553, 0x6c604770)))'
+  - FilePath:        vasnprintf.c
+    Offset:          42488
+    Length:          0
+    ReplacementText: ' + (0x6c6049a5 * (0x6c6049a5 == lava_get(2164, 76988, 0x6c6049a5)))'
+  - FilePath:        vasnprintf.c
+    Offset:          90593
+    Length:          0
+    ReplacementText: ' + (0x6c607394 * (0x6c607394 == lava_get(2164, 66253, 0x6c607394)))'
+  - FilePath:        vasnprintf.c
+    Offset:          100064
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        vasnprintf.c
+    Offset:          100069
+    Length:          0
+    ReplacementText: ' + (0x6c60715f * (0x6c60715f == lava_get(2164, 66818, 0x6c60715f))))'
+  - FilePath:        vasnprintf.c
+    Offset:          100378
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        vasnprintf.c
+    Offset:          100383
+    Length:          0
+    ReplacementText: ' + (0x6c606f2a * (0x6c606f2a == lava_get(2164, 67383, 0x6c606f2a))))'
+  - FilePath:        vasnprintf.c
+    Offset:          100869
+    Length:          0
+    ReplacementText: ' + (0x6c60688b * (0x6c60688b == lava_get(2164, 69078, 0x6c60688b)))'
+  - FilePath:        vasnprintf.c
+    Offset:          100886
+    Length:          0
+    ReplacementText: ' + (0x6c606ac0 * (0x6c606ac0 == lava_get(2164, 68513, 0x6c606ac0)))'
+  - FilePath:        vasnprintf.c
+    Offset:          100908
+    Length:          0
+    ReplacementText: ' + (0x6c606cf5 * (0x6c606cf5 == lava_get(2164, 67948, 0x6c606cf5)))'
+  - FilePath:        vasnprintf.c
+    Offset:          101407
+    Length:          0
+    ReplacementText: ' + (0x6c6061ec * (0x6c6061ec == lava_get(2164, 70773, 0x6c6061ec)))'
+  - FilePath:        vasnprintf.c
+    Offset:          101428
+    Length:          0
+    ReplacementText: ' + (0x6c606421 * (0x6c606421 == lava_get(2164, 70208, 0x6c606421)))'
+  - FilePath:        vasnprintf.c
+    Offset:          101450
+    Length:          0
+    ReplacementText: ' + (0x6c606656 * (0x6c606656 == lava_get(2164, 69643, 0x6c606656)))'
+  - FilePath:        vasnprintf.c
+    Offset:          102305
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        vasnprintf.c
+    Offset:          102308
+    Length:          0
+    ReplacementText: ' + (0x6c605fb7 * (0x6c605fb7 == lava_get(2164, 71338, 0x6c605fb7))))'
+  - FilePath:        vasnprintf.c
+    Offset:          103834
+    Length:          0
+    ReplacementText: ' + (0x6c605d82 * (0x6c605d82 == lava_get(2164, 71903, 0x6c605d82)))'
+  - FilePath:        vasnprintf.c
+    Offset:          104069
+    Length:          0
+    ReplacementText: ' + (0x6c603c67 * (0x6c603c67 == lava_get(2164, 80378, 0x6c603c67)))'
+  - FilePath:        vasnprintf.c
+    Offset:          104137
+    Length:          0
+    ReplacementText: ' + (0x6c603a32 * (0x6c603a32 == lava_get(2164, 80943, 0x6c603a32)))'
+  - FilePath:        vasnprintf.c
+    Offset:          104166
+    Length:          0
+    ReplacementText: ' + (0x6c6037fd * (0x6c6037fd == lava_get(2164, 81508, 0x6c6037fd)))'
+  - FilePath:        vasnprintf.c
+    Offset:          104273
+    Length:          0
+    ReplacementText: ' + (0x6c605b4d * (0x6c605b4d == lava_get(2164, 72468, 0x6c605b4d)))'
+  - FilePath:        vasnprintf.c
+    Offset:          104341
+    Length:          0
+    ReplacementText: ' + (0x6c605918 * (0x6c605918 == lava_get(2164, 73033, 0x6c605918)))'
+  - FilePath:        vasnprintf.c
+    Offset:          104374
+    Length:          0
+    ReplacementText: ' + (0x6c6056e3 * (0x6c6056e3 == lava_get(2164, 73598, 0x6c6056e3)))'
+  - FilePath:        vasnprintf.c
+    Offset:          105049
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        vasnprintf.c
+    Offset:          105078
+    Length:          0
+    ReplacementText: ' + (0x6c6054ae * (0x6c6054ae == lava_get(2164, 74163, 0x6c6054ae))))'
+  - FilePath:        vasnprintf.c
+    Offset:          108543
+    Length:          0
+    ReplacementText: ' + (0x6c605279 * (0x6c605279 == lava_get(2164, 74728, 0x6c605279)))'
+  - FilePath:        vasnprintf.c
+    Offset:          109524
+    Length:          0
+    ReplacementText: ' + (0x6c605044 * (0x6c605044 == lava_get(2164, 75293, 0x6c605044)))'
+  - FilePath:        vasnprintf.c
+    Offset:          119417
+    Length:          0
+    ReplacementText: ' + (0x6c6035c8 * (0x6c6035c8 == lava_get(2164, 82073, 0x6c6035c8)))'
+  - FilePath:        vasnprintf.c
+    Offset:          119596
+    Length:          0
+    ReplacementText: ' + (0x6c60315e * (0x6c60315e == lava_get(2164, 83203, 0x6c60315e)))'
+  - FilePath:        vasnprintf.c
+    Offset:          119760
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        vasnprintf.c
+    Offset:          119767
+    Length:          0
+    ReplacementText: ' + (0x6c602f29 * (0x6c602f29 == lava_get(2164, 83768, 0x6c602f29))))'
+...

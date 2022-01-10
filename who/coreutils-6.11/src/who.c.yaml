@@ -1,0 +1,228 @@
+---
+MainSourceFile:  who.c
+Replacements:    
+  - FilePath:        who.c
+    Offset:          0
+    Length:          0
+    ReplacementText: '#include <stdio.h>
+static unsigned int lava_val[1000000] = {0};
+
+void gdb_mark(unsigned int bug_id)
+{
+    printf("[LAVA] bug %d causes a crash\n", bug_id);
+}
+void lava_set(unsigned int bug_num, unsigned int val);
+__attribute__((visibility("default"))) void lava_set(unsigned int bug_num, unsigned int val) { lava_val[bug_num] = val; }
+unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger);
+__attribute__((visibility("default"))) unsigned int lava_get(unsigned int trigger_id, unsigned int bug_id, unsigned int trigger) { 
+    if (lava_val[trigger_id] == trigger) {
+        gdb_mark(bug_id);
+    }
+    return lava_val[trigger_id]; 
+}
+'
+  - FilePath:        who.c
+    Offset:          6127
+    Length:          0
+    ReplacementText: ' + (0x6c611ce2 * (0x6c611ce2 == lava_get(2164, 22911, 0x6c611ce2)))'
+  - FilePath:        who.c
+    Offset:          6192
+    Length:          0
+    ReplacementText: ' + (0x6c611890 * (0x6c611890 == lava_get(2164, 24017, 0x6c611890)))'
+  - FilePath:        who.c
+    Offset:          6197
+    Length:          0
+    ReplacementText: ' + (0x6c611ab9 * (0x6c611ab9 == lava_get(2164, 23464, 0x6c611ab9)))'
+  - FilePath:        who.c
+    Offset:          6880
+    Length:          0
+    ReplacementText: ' + (0x6c610b9a * (0x6c610b9a == lava_get(2164, 27335, 0x6c610b9a)))'
+  - FilePath:        who.c
+    Offset:          7015
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          7021
+    Length:          0
+    ReplacementText: ' + (0x6c61096a * (0x6c61096a == lava_get(2164, 27895, 0x6c61096a))))'
+  - FilePath:        who.c
+    Offset:          7134
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          7139
+    Length:          0
+    ReplacementText: ' + (0x6c610739 * (0x6c610739 == lava_get(2164, 28456, 0x6c610739))))'
+  - FilePath:        who.c
+    Offset:          7304
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          7313
+    Length:          0
+    ReplacementText: ' + (0x6c6100a1 * (0x6c6100a1 == lava_get(2164, 30144, 0x6c6100a1))))'
+  - FilePath:        who.c
+    Offset:          7345
+    Length:          0
+    ReplacementText: ' + (0x6c60ea90 * (0x6c60ea90 == lava_get(2164, 35793, 0x6c60ea90)))'
+  - FilePath:        who.c
+    Offset:          7454
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          7474
+    Length:          0
+    ReplacementText: ') + (0x6c60eefa * (0x6c60eefa == lava_get(2164, 34663, 0x6c60eefa)))'
+  - FilePath:        who.c
+    Offset:          7480
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          7504
+    Length:          0
+    ReplacementText: ') + (0x6c60f12f * (0x6c60f12f == lava_get(2164, 34098, 0x6c60f12f)))'
+  - FilePath:        who.c
+    Offset:          7523
+    Length:          0
+    ReplacementText: ' + (0x6c60f599 * (0x6c60f599 == lava_get(2164, 32968, 0x6c60f599)))'
+  - FilePath:        who.c
+    Offset:          7546
+    Length:          0
+    ReplacementText: ' + (0x6c60f7ce * (0x6c60f7ce == lava_get(2164, 32403, 0x6c60f7ce)))'
+  - FilePath:        who.c
+    Offset:          7560
+    Length:          0
+    ReplacementText: ' + (0x6c60fa03 * (0x6c60fa03 == lava_get(2164, 31838, 0x6c60fa03)))'
+  - FilePath:        who.c
+    Offset:          7831
+    Length:          0
+    ReplacementText: ' + (0x6c60fc38 * (0x6c60fc38 == lava_get(2164, 31273, 0x6c60fc38)))'
+  - FilePath:        who.c
+    Offset:          7846
+    Length:          0
+    ReplacementText: ' + (0x6c60fe6d * (0x6c60fe6d == lava_get(2164, 30708, 0x6c60fe6d)))'
+  - FilePath:        who.c
+    Offset:          7965
+    Length:          0
+    ReplacementText: ' + (0x6c602abc * (0x6c602abc == lava_get(2164, 84901, 0x6c602abc)))'
+  - FilePath:        who.c
+    Offset:          7980
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          7983
+    Length:          0
+    ReplacementText: ' + (0x6c60287e * (0x6c60287e == lava_get(2164, 85475, 0x6c60287e))))'
+  - FilePath:        who.c
+    Offset:          8016
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          8023
+    Length:          0
+    ReplacementText: ' + (0x6c60263e * (0x6c60263e == lava_get(2164, 86051, 0x6c60263e))))'
+  - FilePath:        who.c
+    Offset:          8048
+    Length:          0
+    ReplacementText: ' + (0x6c6023fc * (0x6c6023fc == lava_get(2164, 86629, 0x6c6023fc)))'
+  - FilePath:        who.c
+    Offset:          8062
+    Length:          0
+    ReplacementText: ' + (0x6c6021b8 * (0x6c6021b8 == lava_get(2164, 87209, 0x6c6021b8)))'
+  - FilePath:        who.c
+    Offset:          8082
+    Length:          0
+    ReplacementText: ' + (0x6c601fad * (0x6c601fad == lava_get(2164, 87732, 0x6c601fad)))'
+  - FilePath:        who.c
+    Offset:          8836
+    Length:          0
+    ReplacementText: ' + (0x6c6165d3 * (0x6c6165d3 == lava_get(2164, 4238, 0x6c6165d3)))'
+  - FilePath:        who.c
+    Offset:          9569
+    Length:          0
+    ReplacementText: ' + (0x6c615760 * (0x6c615760 == lava_get(2164, 7937, 0x6c615760)))'
+  - FilePath:        who.c
+    Offset:          9873
+    Length:          0
+    ReplacementText: ' + (0x6c614d30 * (0x6c614d30 == lava_get(2164, 10545, 0x6c614d30)))'
+  - FilePath:        who.c
+    Offset:          9980
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          9989
+    Length:          0
+    ReplacementText: ' + (0x6c5fe464 * (0x6c5fe464 == lava_get(2164, 102909, 0x6c5fe464))))'
+  - FilePath:        who.c
+    Offset:          10010
+    Length:          0
+    ReplacementText: '('
+  - FilePath:        who.c
+    Offset:          10017
+    Length:          0
+    ReplacementText: ' + (0x6c6143e8 * (0x6c6143e8 == lava_get(2164, 12921, 0x6c6143e8))))'
+  - FilePath:        who.c
+    Offset:          10199
+    Length:          0
+    ReplacementText: ' + (0x6c5fdf7d * (0x6c5fdf7d == lava_get(2164, 104164, 0x6c5fdf7d)))'
+  - FilePath:        who.c
+    Offset:          10218
+    Length:          0
+    ReplacementText: ' + (0x6c5fdcfb * (0x6c5fdcfb == lava_get(2164, 104806, 0x6c5fdcfb)))'
+  - FilePath:        who.c
+    Offset:          10359
+    Length:          0
+    ReplacementText: ' + (0x6c5fd2ce * (0x6c5fd2ce == lava_get(2164, 107411, 0x6c5fd2ce)))'
+  - FilePath:        who.c
+    Offset:          10376
+    Length:          0
+    ReplacementText: ' + (0x6c5fd55f * (0x6c5fd55f == lava_get(2164, 106754, 0x6c5fd55f)))'
+  - FilePath:        who.c
+    Offset:          10385
+    Length:          0
+    ReplacementText: ' + (0x6c5fd7d4 * (0x6c5fd7d4 == lava_get(2192, 106125, 0x6c5fd7d4)))'
+  - FilePath:        who.c
+    Offset:          10434
+    Length:          0
+    ReplacementText: ' + (0x6c6139b0 * (0x6c6139b0 == lava_get(2164, 15537, 0x6c6139b0)))'
+  - FilePath:        who.c
+    Offset:          10477
+    Length:          0
+    ReplacementText: ' + (0x6c6134d5 * (0x6c6134d5 == lava_get(2164, 16780, 0x6c6134d5)))'
+  - FilePath:        who.c
+    Offset:          10518
+    Length:          0
+    ReplacementText: ' + (0x6c612e39 * (0x6c612e39 == lava_get(2164, 18472, 0x6c612e39)))'
+  - FilePath:        who.c
+    Offset:          10556
+    Length:          0
+    ReplacementText: ' + (0x6c612590 * (0x6c612590 == lava_get(2164, 20689, 0x6c612590)))'
+  - FilePath:        who.c
+    Offset:          10570
+    Length:          0
+    ReplacementText: ' + (0x6c6127d9 * (0x6c6127d9 == lava_get(2164, 20104, 0x6c6127d9)))'
+  - FilePath:        who.c
+    Offset:          10908
+    Length:          0
+    ReplacementText: ' + (0x6c611f0b * (0x6c611f0b == lava_get(2164, 22358, 0x6c611f0b)))'
+  - FilePath:        who.c
+    Offset:          10909
+    Length:          0
+    ReplacementText: ' + (0x6c61143e * (0x6c61143e == lava_get(2164, 25123, 0x6c61143e)))'
+  - FilePath:        who.c
+    Offset:          14943
+    Length:          0
+    ReplacementText: ' + (0x6c616ec8 * (0x6c616ec8 == lava_get(2164, 1945, 0x6c616ec8)))'
+  - FilePath:        who.c
+    Offset:          16199
+    Length:          0
+    ReplacementText: ' + (0x6c617028 * (0x6c617028 == lava_get(2164, 1593, 0x6c617028)))'
+  - FilePath:        who.c
+    Offset:          16209
+    Length:          0
+    ReplacementText: ' + (0x6c6170d8 * (0x6c6170d8 == lava_get(2164, 1417, 0x6c6170d8)))'
+  - FilePath:        who.c
+    Offset:          16229
+    Length:          0
+    ReplacementText: ' + (0x6c5fae65 * (0x6c5fae65 == lava_get(2164, 116732, 0x6c5fae65)))'
+...
